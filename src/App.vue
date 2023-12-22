@@ -13,7 +13,7 @@ const loading = ref(false);
 constloadingPosts = ref(false);
 const message = ref(null);
 
-const contractAddress = "";
+const contractAddress = "0xad9C363b372277DAf432c1aDD9E9CC798D14830b";
 const contractABI = abi.abi;
 
 const getEthereumObject = () => window.ethereum;
